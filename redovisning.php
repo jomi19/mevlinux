@@ -23,5 +23,46 @@ require_once 'view/header.php';
 <h3>Var det något som krånglade eller tog extra mycket tid?</h3>
 <p>Jag tror inte jag hade några större problem då det här kändes som ett väldigt kort och snabbt kursmoment. Jag har tänkt prova instalera allt på min pi då jag skaffar ett till större sd kort till den. <p>
 
+<h1>Kmom02</h1>
+
+<h3>Hur känns konceptet med Apache name-based Virtual Hosts? Känner du igen det sedan tidigare?</h3>
+
+<p>Jag tycker konceptet känns bra men jag hade lite problem att få till så jag kunde använda ett host namn på den lokala datorn och inte bara på den virtuella. 
+    Då jag först bara hade ändrat host filen i den virtuella Linux datorn. Senare forstod jag att jag även vart tvungen att ändra host filen i Windows datorn. 
+    Ett annat problem jag hade då jag skulle lägga upp sidan på den virtuella maskinen var att jag gjorde mina "vhosts" mappar då jag var inloggad som sudo istället för som "joakim" vilket gjorde att mapparna låg på fel ställen och apache kunde inte starta.<p>
+
+
+
+
+<h3>Det blir allt fler kommandon i terminalen, hur känns det med terminalen och dess kommandon?</h3>
+
+<p>Jag tycker att det börjar kännas mycket mer användbart och lättsamt att använda terminalen nu då man börja lära sig lite mer av vad och hur man kan göra saker.<p>
+
+
+
+
+<h3>Gick det bra med ssh-nycklar och rsync över ssh?</h3>
+<p>Ssh nycklarna gick utan problem helt utan problem då jag har använt det tidigare. Rsync gick även det bra ända problemet var det jag skrivit lite tidigare att jag inte fick till host-namnen i början.<p>
+
+
+<h3>Hur kändes det att jobba med tmux?</h3>
+<p>När jag väl fick till det så kändes det otroligt smidigt att kunna ha flera terminalrutor brevid varandra hela tiden, då man kan vara och jobba på flera ställen samtidigt. 
+    Jag hade problem med att få till tmux då när jag installerade tmux så valde mitt antivirus program att ta bort vissa filer från min terminal. Jag vart då tvungen att ominstalera cygwin samt ta bort tmux paketet för att kunna installera hem det igen.<p>
+
+
+
+
+<h3>Reflektera över hur du känner inför Unix som operativsystem så här långt?</h3>
+<p>Jag tycker för det mesta det gått bra och att det är intressant då jag inte använt det så mycket förut. Jag har dock haft en del problem med min VM då den efter varje gång jag startat om min riktiga dator och  sedan startar linux i den virtuella så fick jag ingen bild. 
+    Det fungerade då jag återställde från min snapshot men vart samma sak igen nästa gång då jag startade om datorn. Jag ominstallerade sedan debian och valde xfce istället för gnome som mitt GUI och nu verkar det fungera.<p>
+
+
+
+
+<p>Labbarna tycker jag som alltid är väldigt roliga och jobba med men vet inte riktigt hur sista uppgiften vart. Den säger att jag gjort rätt och jag kollade på tipset för att veta hur jag skulle söka för att få fram rätt filer. 
+    Jag har nu skrivit att den ska söka efter "apache2/mods-available/*ssl.conf" men som jag uppfattar uppgiften så ska jag söka efter
+
+"apache2/mods-available/*ssl*.conf" jag vet inte riktigt om det är något jag missat eller om det ska vara så. <p>
+
 <?php
 require_once 'view/footer.php';
