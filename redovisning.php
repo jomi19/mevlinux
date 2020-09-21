@@ -64,5 +64,51 @@ require_once 'view/header.php';
 
 "apache2/mods-available/*ssl*.conf" jag vet inte riktigt om det är något jag missat eller om det ska vara så. <p>
 
+<h1>Kmom03</h1>
+    
+<h3>Är detta din första bekantskap med skriptprogrammering i Bash?</h3>
+
+<p>Det här är första gången jag skriver scrit i bash, det ända jag gjort i Bash tidigare kommandona vi använt i denna kursen och tidigare kurser ifrån skolan. 
+
+Det är alltid roligt att prova på nya grejer. </p>
+
+ 
+
+<h3>Berätta om din uppfattning om Bash som programmeringsmiljö, relatera till andra programspråk du kan.</h3>
+
+<p>Det jag tycker det var lite speciellt att koda i Bash men det gick ganska bra att komma in i det. 
+Jag tycker mest det liknar python och PHP python i avsaknaden av ; på dom flesta ställerna och PHP i hur man gör funktionerna. 
+Men samtidigt tycker jag det var ganskla mycket som var specielt i bash blandannat “case - - esac” och “do - - done”. </p>
+
+ 
+
+<h3>Vilka möjligheter/utmaningar ser du med denna typen av skriptprogrammering? <h3>
+
+<p>Jag kan tänka mig att det finns stora möjligheter i att automatisera olika saker.</p>
+
+ 
+
+<h3>Var det något som var extra svårt eller utmanande i uppgifterna? </h3>
+
+<p>Det här kursmomentet gick relativt smärtfritt för mig, jag tycker som alltid labbarna är väldigt roliga att hålla på med. 
+    Det vart en del googlande om options för kommandona osv då jag gjorde den. 
+    Annars var det bara då jag skulle göra docker imagen jag hade lite problem med hur jag skulle skriva i min Dockerfile. 
+    Problemet jag hade var att jag inte hade en “apt-get install update”  innan jag installerade min cal funktion. <p>
+
+ 
+
+<h3>Har du arbetat med Docker innan? </h3>
+
+<p>Docker är inget jag arbetat med innan men jag har hört om det en del. 
+    Jag läste lite om det då jag la upp min homeassistant server hemma för att sköta automationer hemma men det vart inte att jag la den i en docker container. </p>
+
+ 
+
+<h3>Anser du att det är någon fördel/nackdel med Docker om du jämför med VirtualBox? </h3>
+
+<p>En stor fördel med docker är att den är att den tar mindre resurser. 
+
+För mig känns docker som en mycket bättre lösning med den lilla kunskapen jag har kring ämnet hittills. </p>
+
 <?php
 require_once 'view/footer.php';
