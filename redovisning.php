@@ -110,5 +110,62 @@ Men samtidigt tycker jag det var ganskla mycket som var specielt i bash blandann
 
 För mig känns docker som en mycket bättre lösning med den lilla kunskapen jag har kring ämnet hittills. </p>
 
+
+
+<h1>Kmom04</h1>
+<h3>Vilken väg valde du för servern?</h3>
+
+<p>Jag valde att använda mig av Node.js 
+
+ 
+
+<h3>Hur kommer det sig att du valde det?</h3>
+
+<p>Jag tänkte först välja python för att det var länge sedan jag programmerade i python. Men valet föll till slut på Node.js då jag gillar JavaScript mycket och det känns som det passade väldigt bra till den här uppgiften. </p>
+
+ 
+
+<h3>Gick det bra med Docker?</h3>
+
+<p>Docker gick utan några större problem, jag missade först att vi skulle skicka in datafilen via kommandot vi kör igång containern med i terminalen. Det var bara det jag fick ändra för annars så gick det väldigt fort att få igång det man skulle göra. </p>
+
+ 
+
+<h3>Hänger du med på koncepten kring klient och server? </h3>
+
+<p>Jag skulle säga att jag har bra koll på hur det fungerar med paths och så i Node.js och hur man gör såna enklare containers i docker. En sak jag vet att jag måste läsa på lite mer om är hur “$# $@ och $*” fungerar och när dom ska användas. Det var ett problem jag fick då jag flyttade in min while loop intill en funktion, 
+    där jag fick in hela kommandot som en sträng istället för att det var uppdelat. Jag bytte då till $@ och det fungerade som det skulle då. 
+
+ </p>
+
+<h3>Strukturerade du Bash-scriptet annorlunda jämfört med förra kursmomentet? </h3>
+
+<p>Jag har strukturerat mitt bash script så min huvud funktionen är flyttat in till en main funktion nu. 
+
+Uppbyggnaden är väldigt lika från förra bash scriptet men jag har mycket färre funktioner. Alla kommandona som hämtar data från docker containern går via samma funktion. Jag är relativt nöjd med hur jag fått till mitt bash script. </p>
+
+
+
+<h1>Kmom05</h1>
+<h3>Hur kändes det att skriva ett litet större bash-skript? Var det något som var mer eller mindre utmanande och tidskrävande? </h3>
+
+<p>Själva bash-skriptet gick utan några större problem för mig, Jag hade lite problem med att flytta över curl resultaten till en variabel istället för att skriva ut det direkt. Det löste jag med att skriva kommandot innanför $() sen gick det som jag ville. </p>
+
+<h3>Kikade du på källkoden till maze-servern? Har du några reflektioner kring den? </h3>
+
+<p>Jag kikade lite fort över källkoden till servern och man känner igen mycket. Men sen är det även mycket som är mer avancerat än vad man själv har gjort någong gång. </p>
+
+<h3>Gjorde du nåt speciellt i din mazerunner som du vill lyfta fram? </h3>
+
+<p>Min mazereunner klient är rätt basic och gör inget speciellt utöver det som skulle göras. </p>
+
+ 
+
+<p>Jag hade lite problem med att få till docker scripten som jag ville då jag trodde det var någon rad kod jag vart tvungen att skriva i scriptet för att stanna kvar och kvar i containern och kunna skriva med mazerunner scriptet. Sen provade jag ta bort cmd delen från Dockerfilen. 
+
+Labben vet jag inte hur det är med då jag har alla rätt på den då jag kör den innuti min VM men då jag kör den i Windows får jag bara 5/10 rätt. 
+
+Jag vet inte riktigt om det ska/kan vara så. </p>
+
 <?php
 require_once 'view/footer.php';
